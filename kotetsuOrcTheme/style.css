@@ -1,0 +1,103 @@
+/* Theme Name:kotetsu orchestra
+theme URI:
+Description:
+Version:1
+Author:
+Author URI: */
+
+
+ body,h1 {
+ margin: 0;
+ padding:0;
+ background: #f6f6f6;
+ color: #5c330a;
+ }
+
+.body-wrapper {
+ width: 80%;
+ margin: auto;
+}
+
+ header {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .orche-name-box {
+  padding-top: 2rem;
+  padding-left: 1rem;
+ } 
+
+.orche-name {
+ font-size: 2.5rem;
+ font-weight: normal;
+}
+
+ ul {
+ margin-top: 3rem;
+ height:2rem;
+ background-image:linear-gradient(
+     rgb(156,227,225) 0%,
+     rgb(108,198,196) 90%);
+ border-radius: 6px;
+ list-style: none;
+ }
+
+ li {
+ display: inline-block;
+ margin-right: 2rem;
+ line-height:2rem;
+ }
+
+ a {
+ text-decoration: none;
+ color: azure;
+ }
+
+ main {
+ margin-top: 1.2rem;
+ display: flex;
+ justify-content:space-around;
+ }
+
+.topimage-box {
+ width:70%;
+ height: 350px;
+ background-image: url(./img/or.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ border-radius: 6px;
+}
+
+.sidebar {
+ width: 20%;
+ padding: 1rem;
+ background-color: white;
+ border: solid 1.2px #6cc6c4;
+ border-radius: 6px;
+ font-size: 1.2rem;
+ text-align: center;
+}
+
+.new-head {
+ background-image:linear-gradient(
+     rgb(156,227,225) 0%,
+     rgb(108,198,196) 90%);
+ border-radius: 6px;
+ color: azure;
+ font-size:1rem;
+}
+
+.topic-link {
+  color: #5c330a;
+ }
+
+.footer-nav-box {
+ margin: auto;
+ text-align: center;
+}
+
+.copyright {
+ text-align: center;  
+}
+ 
