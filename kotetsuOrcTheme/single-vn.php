@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+qq
 <?php if( have_posts() ): while( have_posts() ) : the_post(); ?>
   <div class="article__box">
     <h1><?php the_title(); ?></h1>
@@ -8,7 +8,5 @@
 <?php endwhile; else: ?>
 <?php endif; ?>
   </div>
-
-<?php get_footer(); ?>
-
   
+<?php get_footer(); ?>

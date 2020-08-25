@@ -9,6 +9,10 @@
 <?php endif; ?>
   </div>
 
-<?php get_footer(); ?>
+<aside>
+  <div class="comments">
+    <?php comments_template(); ?>
+  </div>
+</aside>
 
-  
+<?php get_footer(); ?>
