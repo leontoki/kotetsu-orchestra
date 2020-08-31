@@ -1,5 +1,5 @@
 <div class="orche-name__box">
-  <h1>管弦楽団虎鉄 <span>-どこよりも熱く どこよりもスマートに！-</span></h1>
+  <h1 id="title">管弦楽団虎鉄 <span>-どこよりも熱く どこよりもスマートに！-</span></h1>
 </div>
 
 <?php get_header(); ?>
