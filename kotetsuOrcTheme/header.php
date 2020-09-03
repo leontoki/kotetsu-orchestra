@@ -12,7 +12,7 @@
   <div class="body-wrapper">
 
 <header>
-  <nav class="nav__box">
+  <nav class="nav__box" id="nav__box">
     <ul>
       <li><a class="nav__menu" href="<?php echo esc_url(home_url()); ?>">トップページ</a></li>
       <li><a class="nav__menu" href="<?php echo esc_url(home_url('/vision')); ?>">活動方針</a></li>

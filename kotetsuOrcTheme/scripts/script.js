@@ -17,9 +17,10 @@ jQuery(function ($) {
     }
   );
 
-  $('img').fadeIn(1500);
-  $('#title').fadeIn(2500);
-
+  // 画像等のフェードイン実装
+  $('#title').fadeIn(1500);
+  $('#nav__box').fadeIn(2500);
+  $('img').fadeIn(3000);
 
 });
 

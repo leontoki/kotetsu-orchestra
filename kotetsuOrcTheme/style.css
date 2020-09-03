@@ -53,6 +53,10 @@ Author URI: */
   font-size:1.3rem;
   font-weight: normal;
 }
+       
+.nav__box{
+ display: none;
+}
 
 .nav__box ul {
  margin:0.5rem 0 0.5rem 0;
@@ -109,7 +113,7 @@ Author URI: */
 
 .sidebar a {
  color: #5c330a;
- font-size:0.9rem;
+ font-size:1.1rem;
 }
 
 .sidebar a:hover {
@@ -171,6 +175,10 @@ display: flex;
 
 .copy-right {
  text-align: center;  
+ }
+
+ .slide__box{
+   margin-left: 28rem;
  }
 
 
